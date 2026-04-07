@@ -19,3 +19,19 @@ scan/
 session_images/
 sess_header_*.png
 *.log
+
+# Temporary Mapping & Test files
+temp_map_*.jpg
+annotated_*.png
+test_mapping_strategy.py
+check_vision.py
+test_cv.py
+final_cleanup.py
+re-extract_images.py
+fix_json_meta.py
+update_json_data.py
+*.jpg
+# Keep output images
+!output/images/*.png
+!output/ElectricExam2019_Final.json
+!output/viewer.html
