@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전기기능사 기출문제 검토 뷰어</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-color: #38bdf8;
+            --success-color: #22c55e;
+            --border-color: #334155;
+            --header-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            padding: 40px 20px;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            position: sticky;
+            top: 0;
+            background: var(--bg-color);
+            padding: 20px 0;
+            z-index: 10;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            background: var(--header-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .filter-btn {
+            background: var(--card-bg);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .filter-btn.active {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+            color: var(--bg-color);
+        }
+
+        .stats {
+            margin-top: 15px;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        #quiz-list {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .quiz-card {
+            background-color: var(--card-bg);
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .quiz-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--accent-color);
+            box-shadow: 0 25px 30px -5px rgba(56, 189, 248, 0.15);
+        }
+
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .exam-title {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            background: rgba(56, 189, 248, 0.1);
+            padding: 4px 12px;
+            border-radius: 20px;
+        }
+
+        .num {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--text-secondary);
+        }
+
+        .question {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: var(--text-primary);
+        }
+
+        .image-wrapper {
+            margin: 20px 0 35px 0;
+            text-align: left;
+        }
+
+        .image-container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 16px;
+            display: inline-block;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e2e8f0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .choices {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .choice {
+            background-color: rgba(255, 255, 255, 0.03);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            position: relative;
+            cursor: default;
+            transition: all 0.2s;
+            font-size: 1.05rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .choice-num {
+            width: 28px;
+            height: 28px;
+            background: var(--border-color);
+            color: var(--text-secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .choice.correct {
+            background-color: rgba(34, 197, 94, 0.08);
+            border-color: var(--success-color);
+            box-shadow: 0 0 15px rgba(34, 197, 94, 0.1);
+        }
+
+        .choice.correct .choice-num {
+            background: var(--success-color);
+            color: white;
+        }
+
+        .explanation-box {
+            margin-top: 30px;
+            padding: 25px;
+            background-color: rgba(255, 255, 255, 0.02);
+            border-left: 5px solid var(--accent-color);
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        .explanation-title {
+            display: block;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        .explanation-text {
+            color: var(--text-secondary);
+            white-space: pre-wrap;
+        }
+
+        #loading {
+            text-align: center;
+            padding: 100px;
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(56, 189, 248, 0.1);
+            border-top: 5px solid var(--accent-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .choices { grid-template-columns: 1fr; }
+            .quiz-card { padding: 25px; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>전기기능사 검토 뷰어</h1>
+            <div class="controls">
+                <button class="filter-btn active" onclick="filterQuizzes('all', this)">전체 보기</button>
+                <button class="filter-btn" onclick="filterQuizzes('image', this)">그림 문제만</button>
+            </div>
+            <div id="stats" class="stats">데이터 로딩 중...</div>
+        </header>
+
+        <div id="loading">
+            <div class="spinner"></div>
+            잠시만 기다려 주세요...
+        </div>
+        
+        <main id="quiz-list"></main>
+    </div>
+
+    <script>
+        let allQuizzes = [];
+
+        async function init() {
+            try {
+                const response = await fetch('./ElectricExam2019_Final.json');
+                allQuizzes = await response.json();
+                
+                document.getElementById('loading').style.display = 'none';
+                renderQuizzes(allQuizzes);
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('loading').innerHTML = '데이터를 불러오는 중 오류가 발생했습니다.';
+            }
+        }
+
+        function renderQuizzes(quizzes) {
+            const listContainer = document.getElementById('quiz-list');
+            listContainer.innerHTML = '';
+            
+            const imageCount = quizzes.filter(q => q.image).length;
+            document.getElementById('stats').textContent = 
+                `총 ${allQuizzes.length}문항 중 ${quizzes.length}문항 표시 중 (그림 포함: ${imageCount}문항)`;
+
+            quizzes.forEach(q => {
+                const card = document.createElement('div');
+                card.className = 'quiz-card';
+                
+                const choicesHtml = q.choices.map((c, i) => `
+                    <div class="choice ${i + 1 == q.answer ? 'correct' : ''}">
+                        <div class="choice-num">${i + 1}</div>
+                        <div class="choice-text">${c}</div>
+                    </div>
+                `).join('');
+
+                let imageHtml = '';
+                if (q.image) {
+                    imageHtml = `
+                        <div class="image-wrapper">
+                            <div class="image-container">
+                                <img src="./images/${q.image}" alt="Q${q.number} Image" onerror="this.parentElement.innerHTML='<span style=\'color:red\'>그림을 찾을 수 없음: ${q.image}</span>'">
+                            </div>
+                        </div>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <div class="quiz-header">
+                        <span class="exam-title">${q.exam_title || '연도 미상'}</span>
+                        <span class="num">${q.number}번</span>
+                    </div>
+                    <div class="question">${q.question.replace('[그림]', '')}</div>
+                    ${imageHtml}
+                    <div class="choices">
+                        ${choicesHtml}
+                    </div>
+                    <div class="explanation-box">
+                        <span class="explanation-title">해설 및 정답</span>
+                        <div class="explanation-text">${q.explanation}</div>
+                    </div>
+                `;
+                listContainer.appendChild(card);
+            });
+        }
+
+        function filterQuizzes(type, btn) {
+            // 버튼 상태 변경
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            if (type === 'all') {
+                renderQuizzes(allQuizzes);
+            } else if (type === 'image') {
+                renderQuizzes(allQuizzes.filter(q => q.image));
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

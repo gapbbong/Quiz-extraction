@@ -1,0 +1,2062 @@
+[
+  {
+    "number": "01",
+    "question": "UPS란 무엇인가?",
+    "choices": [
+      "정전 시 무정전 직류 전원 장치",
+      "상시 교류 전원 장치",
+      "무정전 교류 전원 공급 장치",
+      "상시 직류 전원 장치"
+    ],
+    "answer": 3,
+    "explanation": "UPS(Uninterruptible Power Supply)는 정전이나 전원 이상 상태 발생 시 부하에 대한 교류 입력 전원의 연속성을 확보하는 무정전 교류 전원 공급 장치이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "02",
+    "question": "공심 솔레노이드 내부의 자기장의 세기가 100 [AT/m]일 때 자속 밀도의 세기[Wb/m²]는?",
+    "choices": [
+      "$2\\pi \\times 10^{-5}$",
+      "$4\\pi \\times 10^{-5}$",
+      "$2\\pi \\times 10^{-3}$",
+      "$4\\pi \\times 10^{-1}$"
+    ],
+    "answer": 2,
+    "explanation": "공심 솔레노이드의 자속 밀도는 $B = \\mu_0 H$ 공식으로 계산하며, 여기서 $\\mu_0$는 진공의 투자율($4\\pi \\times 10^{-7}$ H/m)이고 H는 자기장의 세기이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "03",
+    "question": "한국전기설비규정에 의하면 옥외 백열전등의 인하선으로서 지표상의 높이 2.5[m] 미만인 부분은 전선에 공칭 단면적 몇 [mm²] 이상의 연동선과 동등 이상의 세기 및 굵기의 절연 전선(옥외용 비닐 절연 전선)을 사용하는가?",
+    "choices": [
+      "0.75",
+      "1.5",
+      "2.5",
+      "2.0"
+    ],
+    "answer": 3,
+    "explanation": "한국전기설비규정에 따라 옥외 백열전등 인하선 중 지표면 2.5m 미만 부분에는 공칭 단면적 2.5[mm²] 이상의 연동선을 사용해야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "04",
+    "question": "전압계 및 전류계의 측정 범위를 넓히기 위하여 사용하는 배율기와 분류기의 접속 방법은?",
+    "choices": [
+      "배율기는 전압계와 병렬 접속, 분류기는 전류계와 직렬 접속",
+      "배율기는 전압계와 직렬 접속, 분류기는 전류계와 병렬 접속",
+      "배율기 및 분류기 모두 전압계와 전류계에 직렬 접속",
+      "배율기 및 분류기 모두 전압계와 전류계에 병렬 접속"
+    ],
+    "answer": 2,
+    "explanation": "전압계의 측정 범위를 확장하는 배율기는 전압계에 직렬로, 전류계의 측정 범위를 확장하는 분류기는 전류계에 병렬로 연결한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "05",
+    "question": "450/750[V] 일반용 단심 비닐 절연 전선의 약호는?",
+    "choices": [
+      "NRI",
+      "NF",
+      "NFI",
+      "NR"
+    ],
+    "answer": 4,
+    "explanation": "450/750[V] 일반용 단심 비닐 절연 전선은 규격 약호로 'NR'로 표기된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "06",
+    "question": "i = 200√2 sin(ωt + π/2) [A]를 복소수로 표시하면?",
+    "choices": [
+      "200",
+      "j200",
+      "200 × j200",
+      "200√2 × j200√2"
+    ],
+    "answer": 2,
+    "explanation": "전류 i를 복소수로 변환하기 위해 위상각 π/2를 고려하면, i = 200∠π/2 = 200(cos(π/2) + jsin(π/2)) = 200(0 + j) = j200[A]가 된다.",
+    "image_filename": {
+      "question": "img_2019_1_06_q.png",
+      "choices": [
+        "img_2019_1_06_c0.png",
+        "img_2019_1_06_c1.png",
+        "img_2019_1_06_c2.png",
+        "img_2019_1_06_c3.png"
+      ]
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "07",
+    "question": "전선의 전기 저항 처음 값을 R1이라 하고 이 전선의 반지름을 2배로 하면 전기 저항 R은 처음 값의 얼마이겠는가?",
+    "choices": [
+      "4R1",
+      "2R1",
+      "1/2R1",
+      "1/4R1"
+    ],
+    "answer": 4,
+    "explanation": "전기 저항 R은 단면적 A에 반비례하고, 단면적은 반지름 r의 제곱에 비례한다 (A=πr²). 반지름이 2배가 되면 단면적은 4배가 되므로, 저항은 1/4배로 감소한다.",
+    "image_filename": {
+      "question": "img_2019_1_07_q.png",
+      "choices": [
+        "img_2019_1_07_c0.png",
+        "img_2019_1_07_c1.png",
+        "img_2019_1_07_c2.png",
+        "img_2019_1_07_c3.png"
+      ]
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "08",
+    "question": "지선의 안전율은 2.5 이상으로 하여야 한다. 이 경우 허용 최저 인장 하중[kN]은 얼마 이상으로 하여야 하는가?",
+    "choices": [
+      "4.31",
+      "6.8",
+      "9.8",
+      "0.68"
+    ],
+    "answer": 1,
+    "explanation": "지선의 허용 인장 하중은 안전율과 관계없이 규정상 4.31[kN] 이상으로 해야 한다. 이는 지선의 시설 규정에 명시된 사항이다.",
+    "image_filename": {
+      "question": "img_2019_1_08_q.png",
+      "choices": [
+        "img_2019_1_08_c0.png",
+        "img_2019_1_08_c1.png",
+        "img_2019_1_08_c2.png",
+        "img_2019_1_08_c3.png"
+      ]
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "09",
+    "question": "코드 상호, 캡타이어 케이블 상호 접속 시 사용해야 하는 것은?",
+    "choices": [
+      "와이어 커넥터",
+      "케이블 타이",
+      "코드 접속기",
+      "테이블 탭"
+    ],
+    "answer": 3,
+    "explanation": "코드 및 캡타이어 케이블 상호 접속 시에는 직접 접속이 불가능하므로, 전용의 접속 기구인 코드 접속기를 사용해야 한다.",
+    "image_filename": {
+      "question": "img_2019_1_09_q.png",
+      "choices": [
+        "img_2019_1_09_c0.png",
+        "img_2019_1_09_c1.png",
+        "img_2019_1_09_c2.png",
+        "img_2019_1_09_c3.png"
+      ]
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "10",
+    "question": "100[μF]의 콘덴서에 1,000[V]의 전압을 가하여 충전한 뒤 저항을 통하여 방전시키는 에너지[J]는?",
+    "choices": [
+      "25",
+      "50",
+      "100",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "콘덴서에 저장되는 에너지 W는 W = 1/2 CV² 공식으로 계산한다. 주어진 값들을 대입하면 W = 1/2 × (100 × 10⁻⁶ F) × (1,000 V)² = 50 J이다.",
+    "image_filename": {
+      "question": "img_2019_1_10_q.png",
+      "choices": [
+        "img_2019_1_10_c0.png",
+        "img_2019_1_10_c1.png",
+        "img_2019_1_10_c2.png",
+        "img_2019_1_10_c3.png"
+      ]
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "11",
+    "question": "한국전기설비규정에 의하여 애자 사용 공사를 건조한 장소에 시설하고자 한다. 사용 전압이 400[V] 초과인 경우 전선과 조영재 사이의 이격 거리는 최소 몇 [cm] 이상이 어야 하는가?",
+    "choices": [
+      "2.5",
+      "4.5",
+      "6.0",
+      "8.0"
+    ],
+    "answer": 1,
+    "explanation": "애자 사용 공사 시 건조한 장소에서 사용 전압이 400[V]를 초과하는 경우, 전선과 조영재 사이의 이격 거리는 최소 2.5[cm] 이상이어야 한다.",
+    "image_filename": {
+      "question": "img_2019_1_11_q.png",
+      "choices": [
+        "img_2019_1_11_c0.png",
+        "img_2019_1_11_c1.png",
+        "img_2019_1_11_c2.png",
+        "img_2019_1_11_c3.png"
+      ]
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "12",
+    "question": "자체 인덕턴스 4[H]의 코일에 18[J]의 에너지가 저장되어 있다. 이때, 코일에 흐르는 전류는 몇 [A]인가?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": 3,
+    "explanation": "코일에 저장되는 에너지 W는 W = 1/2 LI² 공식으로 계산한다. 주어진 값들을 이용하여 전류 I를 구하면 I = √(2W/L) = √(2 × 18 / 4) = √9 = 3[A]이다.",
+    "image_filename": {
+      "question": "img_2019_1_12_q.png",
+      "choices": [
+        "img_2019_1_12_c0.png",
+        "img_2019_1_12_c1.png",
+        "img_2019_1_12_c2.png",
+        "img_2019_1_12_c3.png"
+      ]
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "13",
+    "question": "콘덴서의 정전 용량을 크게 하는 방법으로 옳지 않은 것은?",
+    "choices": [
+      "극판의 간격을 작게 한다.",
+      "극판 사이에 비유전율이 큰 유전체를 삽입한다.",
+      "극판의 면적을 크게 한다.",
+      "유전율을 작게 한다."
+    ],
+    "answer": 4,
+    "explanation": "콘덴서의 정전 용량 C=εA/d 이므로 극판의 간격 d[m]에 반비례하며 면적 A[m²], 유전율 ε[F/m]에 비례하므로 유전율을 크게 해야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "14",
+    "question": "자속을 발생시키는 원천을 무엇이라 하는가?",
+    "choices": [
+      "기전력",
+      "전자력",
+      "정전력",
+      "기자력"
+    ],
+    "answer": 4,
+    "explanation": "기자력(起磁力, magneto motive force): 자속 φ를 발생하게 하는 근원을 말하며 자기 회로에서 권수 N회인 코일에 전류 I[A]를 흘릴 때 발생하는 자속 φ는 NI에 비례하여 발생하므로 F=NI=R_mφ[AT]와 같이 나타낼 수 있다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "15",
+    "question": "6극 직렬권(파권) 발전기의 전기자 도체수 300, 매극 자속수 0.02[Wb], 회전수 900[rpm]일 때 유도 기전력은 몇 [V]인가?",
+    "choices": [
+      "300",
+      "400",
+      "270",
+      "120"
+    ],
+    "answer": 3,
+    "explanation": "유도 기전력 e = PZΦN / 60a [V] 이며, 파권이므로 a=2이다. 주어진 값을 대입하면 e = (6 × 300 × 0.02 × 900) / (60 × 2) = 270[V]이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "16",
+    "question": "다음의 심벌 명칭은 무엇인가? [그림]",
+    "choices": [
+      "파워 퓨즈",
+      "단로기",
+      "피뢰기",
+      "고압 컷아웃 스위치"
+    ],
+    "answer": 3,
+    "explanation": "주어진 심벌은 피뢰기(Lightning Arrester)를 나타낸다. 피뢰기는 뇌격 등 이상 전압으로부터 전력 계통의 기기를 보호하는 장치이다.",
+    "image_filename": "img_2019_1_16_q.png",
+    "image": "img_2019_1_16_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "17",
+    "question": "정전 용량 C[μF]의 콘덴서에 충전된 전화가 q=√2Qsinωt[C]과 같이 변화하도록 하였다면, 이때 콘덴서에 흘러들어가는 전류의 값은?",
+    "choices": [
+      "i = √2ωQsinωt",
+      "i = √2ωQcosωt",
+      "i = √2ωQsin(ωt - 60°)",
+      "i = √2ωQcos(ωt - 60°)"
+    ],
+    "answer": 2,
+    "explanation": "콘덴서에 흐르는 전류는 전하 q를 시간에 대해 미분한 값이다. 따라서 i_C = dq/dt = d/dt (√2Qsinωt) = √2ωQcosωt[A]이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "18",
+    "question": "변압기 2차 저압 과전류 보호용으로 사용되는 배선용 차단기의 약호는?",
+    "choices": [
+      "ELB",
+      "PF",
+      "OCB",
+      "MCCB"
+    ],
+    "answer": 4,
+    "explanation": "배선용 차단기(MCCB : Molded Case Circuit Breaker)는 정격 전류에서는 동작하지 않고, 과부하 또는 단락 사고 시 과전류가 흐르면 동작하여 회로를 차단하는 보호 장치이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "19",
+    "question": "부흐홀츠 계전기의 설치 위치로 가장 적당한 곳은?",
+    "choices": [
+      "변압기 주탱크 내부",
+      "콘서베이터 내부",
+      "변압기 고압측 부싱",
+      "변압기 주탱크와 콘서베이터 사이"
+    ],
+    "answer": 4,
+    "explanation": "부흐홀츠 계전기는 변압기 내부 고장으로 인한 온도 상승 시 발생하는 유증기를 검출하여 동작하는 계전기이다. 변압기 주탱크와 콘서베이터를 연결하는 파이프 도중에 설치하여 고장을 감지한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "20",
+    "question": "전지의 기전력이 1.5[V] 5개를 부하 저항 2.5[Ω]인 전구에 접속하였을 때 전구에 흐르는 전류는 몇 [A]인가? (단, 전지의 내부 저항은 0.5[Ω]이다.)",
+    "choices": [
+      "1.5",
+      "2",
+      "3",
+      "2.5"
+    ],
+    "answer": 1,
+    "explanation": "직렬 연결된 전지의 총 기전력과 총 내부 저항, 그리고 부하 저항을 사용하여 옴의 법칙(I = nE / (nr + R))으로 전류를 계산한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "21",
+    "question": "직류 전동기의 전부하 속도가 1,200[rpm]이고 속도 변동률이 2[%]일 때, 무부하 회전 속도는 몇 [rpm]인가?",
+    "choices": [
+      "1,224",
+      "1,236",
+      "1,176",
+      "1,164"
+    ],
+    "answer": 1,
+    "explanation": "속도 변동률(ε = (N₀ - Nn) / Nn * 100%) 공식을 이용하여 무부하 속도(N₀)를 계산한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "22",
+    "question": "금속 전선관 공사에서 사용되는 후강 전선관 의 규격이 아닌 것은?",
+    "choices": [
+      "22",
+      "28",
+      "36",
+      "48"
+    ],
+    "answer": 4,
+    "explanation": "후강 전선관의 표준 규격은 내경의 크기에 가까운 짝수로, 제시된 보기 중 해당하지 않는 것을 찾는다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "23",
+    "question": "저압 옥내 간선에 사용되는 전선에 관한 사 항이다. 간선에 접속하는 전동기 등의 정격 전류의 합계가 50[A] 이하의 경우에 그 정격 전류의 합계의 몇 배의 허용 전류가 있는 전선이어야 하는가?",
+    "choices": [
+      "0.9",
+      "1.1",
+      "1.25",
+      "3.0"
+    ],
+    "answer": 3,
+    "explanation": "저압 옥내 간선의 허용 전류 규정에 따라, 전동기 등의 정격 전류 합계가 50A 이하인 경우 간선의 허용 전류는 정격 전류 합계의 1.25배 이상이어야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "24",
+    "question": "R-L 직렬 회로에 직류 전압 100[V]를 가 했더니 전류가 20[A]이었다. 교류 전압 100[V], f=60[Hz]를 인가한 경우 흐르는 전류가 10[A]이었다면 유도성 리액턴스 X_L[Ω]은 얼마인가?",
+    "choices": [
+      "5",
+      "5√2",
+      "5√3",
+      "10"
+    ],
+    "answer": 3,
+    "explanation": "직류 인가 시 저항 R을 구하고, 교류 인가 시 임피던스 Z를 구한 뒤, Z² = R² + X_L² 관계식을 이용하여 유도성 리액턴스 X_L을 계산한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "25",
+    "question": "수·변전 설비의 고압 회로에 걸리는 전압 을 표시하기 위해 전압계를 시설할 때 고압 회로와 전압계 사이에 시설하는 것은?",
+    "choices": [
+      "수전용 변압기",
+      "계기용 변류기",
+      "계기용 변압기",
+      "권선형 변류기"
+    ],
+    "answer": 3,
+    "explanation": "고전압을 저전압으로 변성하여 측정 계기나 보호 계전기에 전압을 공급하기 위해 전압 변성기 (PT, Potential Transformer)를 사용한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "26",
+    "question": "두 금속을 접속하여 여기에 온도차가 발생 하면 그 접점에서 기전력이 발생하여 전류 가 흐르는 현상은?",
+    "choices": [
+      "줄 효과",
+      "홀(hole) 효과",
+      "제베크 효과",
+      "펠티에 효과"
+    ],
+    "answer": 3,
+    "explanation": "서로 다른 두 종류의 금속 양 끝을 접합하여 폐회로를 만들고, 두 접점 사이에 온도차를 주면 회로에 기전력이 발생하여 전류가 흐르는 현상은 제베크 효과이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "27",
+    "question": "3상 유도 전동기의 회전 원리와 가장 관계가 깊은 것은?",
+    "choices": [
+      "회전 자계",
+      "옴의 법칙",
+      "플레밍의 오른손 법칙",
+      "키르히호프의 법칙"
+    ],
+    "answer": 1,
+    "explanation": "유도 전동기의 회전 원리는 고정자 3상 권선에 흐르는 전류에 의해 발생하는 회전 자계가 회전자 도체를 자속을 끊어 기전력을 발생시키고, 이로 인해 전동기는 회전 자계와 같은 방향으로 회전하는 것입니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "28",
+    "question": "접지를 하는 목적으로 설명이 틀린 것은?",
+    "choices": [
+      "감전 방지",
+      "대지 전압 상승 방지",
+      "전기 설비 용량 감소",
+      "화재와 폭발 사고 방지"
+    ],
+    "answer": 3,
+    "explanation": "접지의 주된 목적은 감전 방지, 대지 전압 상승 방지, 화재 및 폭발 사고 방지, 보호 계전기의 동작 확보 등이며, 전기 설비 용량 감소와는 관련이 없습니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "29",
+    "question": "R-L-C 직렬 회로에서 임피던스 Z의 크기를 나타내는 식은?",
+    "choices": [
+      "R² + Xʟ²",
+      "R² - Xᴄ²",
+      "√(R² + (Xʟ - Xᴄ)²)",
+      "0"
+    ],
+    "answer": 3,
+    "explanation": "R-L-C 직렬 회로의 임피던스는 저항 R과 리액턴스 (Xʟ - Xᴄ)의 벡터합으로, 그 크기는 피타고라스 정리에 따라 √(R² + (Xʟ - Xᴄ)²)로 계산됩니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "30",
+    "question": "사람이 상시 통행하는 터널 내 배선의 사용 전압이 저압일 때 공사 방법으로 틀린 것은?",
+    "choices": [
+      "금속관 공사",
+      "애자 사용 공사",
+      "금속 몰드",
+      "합성수지관(두께 2[mm] 미만 및 난연성이 없는 것은 제외)"
+    ],
+    "answer": 3,
+    "explanation": "터널 내 배선 공사는 금속관, 두께 2mm 이상의 합성수지관, 금속제 가요 전선관, 케이블, 애자 사용 공사 등이 가능합니다. 금속 몰드 공사는 건조하고 전개된 장소에 사용되며 터널과 같이 습하거나 폐쇄된 공간에는 적합하지 않아 틀린 공사 방법입니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "31",
+    "question": "전자 접촉기 2개를 이용하여 유도 전동기 1대를 정·역 운전하고 있는 시설에서 전자 접촉기 2개가 동시에 여자되어 상간 단락되는 것을 방지하기 위하여 구성하는 회로는?",
+    "choices": [
+      "자기 유지 회로",
+      "순차 제어 회로",
+      "Y-△ 기동 회로",
+      "인터록 회로"
+    ],
+    "answer": 4,
+    "explanation": "정·역 운전 시 두 개의 전자 접촉기가 동시에 여자되어 상간 단락이 발생하는 것을 방지하기 위해 인터록 회로를 구성하여 한 쪽이 동작하면 다른 쪽의 동작을 금지시킵니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "32",
+    "question": "쥐꼬리 접속 시 접속하려는 두 전선의 피복을 벗긴 후 심선을 교차시킬 때 펜치로 비트는 교차각은 몇 도가 되어야 하는가?",
+    "choices": [
+      "30°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "answer": 2,
+    "explanation": "쥐꼬리 접속 시 전선의 심선을 펜치로 교차시켜 비틀 때는 심선이 단단히 고정되도록 약 90° 각도로 비틀어 줍니다.",
+    "image": "img_2019_1_32_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "33",
+    "question": "배전반 및 분전반과 연결된 배관을 변경하거나 이미 설치되어 있는 캐비닛에 구멍을 뚫을 때 필요한 공구는?",
+    "choices": [
+      "오스터",
+      "녹아웃 펀치",
+      "토치 램프",
+      "클리퍼"
+    ],
+    "answer": 2,
+    "explanation": "캐비닛에 구멍을 뚫거나 확대할 때 사용하는 공구는 녹아웃 펀치이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "34",
+    "question": "자성체를 자석 가까이에 두었을 때 전혀 반응이 없는 자성체는?",
+    "choices": [
+      "비자성체",
+      "반자성체",
+      "강자성체",
+      "상자성체"
+    ],
+    "answer": 1,
+    "explanation": "비자성체는 자성을 띠지 않는 물질로, 자석 가까이 두어도 전혀 반응하지 않는다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "35",
+    "question": "실내 전반 조명을 하고자 한다. 작업대로부터 광원까지의 높이가 2.4[m]인 위치에 조명 기구를 배치할 때 벽에서 한 기구 이상 떨어진 기구에서 기구 간의 거리는 일반적인 경우 최대 몇 [m]로 배치하여 설치하는가?",
+    "choices": [
+      "1.8",
+      "2.4",
+      "3.2",
+      "3.6"
+    ],
+    "answer": 4,
+    "explanation": "실내 전반 조명에서 조명 기구 간 최대 등간격은 '1.5 × 광원까지의 높이'로 계산한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "36",
+    "question": "유도 전동기가 정지 상태일 때 슬립은?",
+    "choices": [
+      "2",
+      "1",
+      "0",
+      "-1"
+    ],
+    "answer": 2,
+    "explanation": "유도 전동기가 정지 상태일 때 회전 속도는 0이므로, 슬립(s)은 1이 된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "37",
+    "question": "220[V] 단상의 부하에 전류가 전압보다 45° 뒤진 15[A]의 전류가 흘렀다. 소비 전력 [W]은?",
+    "choices": [
+      "2,857",
+      "3,300",
+      "1,650",
+      "2,333"
+    ],
+    "answer": 4,
+    "explanation": "단상 전력은 전압, 전류, 그리고 역률(cosθ)의 곱으로 계산하며, 여기서는 cos 45°를 적용한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "38",
+    "question": "단위 시간당 5[Wb]의 자속이 통과하여 2[J]의 일을 하였다면 전류는 얼마인가?",
+    "choices": [
+      "0.25",
+      "2.5",
+      "0.4",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "자속이 통과하면서 한 일(W)은 자속(ϕ)과 전류(I)의 곱으로, 전류는 일/자속으로 계산된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "39",
+    "question": "경질 비닐관의 호칭으로 맞는 것은?",
+    "choices": [
+      "홀수에 관 바깥지름으로 표기한다.",
+      "짝수에 관 바깥지름으로 표기한다.",
+      "홀수에 관 안지름으로 표기한다.",
+      "짝수에 관 안지름으로 표기한다."
+    ],
+    "answer": 4,
+    "explanation": "경질 비닐관의 호칭은 짝수에 관의 안지름(내경)으로 표기된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "40",
+    "question": "이동용 전기 기계 기구를 저압 전기 설비에 사용하는 경우 접지선의 굵기는 다심 코드 또는 캡타이어 케이블을 사용하는 경우 1개의 단면적이 최소 몇 [mm²] 이상이어야 하는가?",
+    "choices": [
+      "0.75",
+      "1",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "이동용 전기 기계 기구를 저압 전기 설비에 사용할 때, 접지선은 최소 0.75[mm²] 이상의 단면적을 가져야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "41",
+    "question": "동기 발전기의 병렬 운전 중 기전력의 위상차가 발생하면 어떤 현상이 나타나는가?",
+    "choices": [
+      "무효 횡류",
+      "유효 순환 전류",
+      "무효 순환 전류",
+      "고조파 전류"
+    ],
+    "answer": 2,
+    "explanation": "동기 발전기의 병렬 운전 중 기전력의 크기가 같고 위상차가 존재할 때는 유효 순환 전류가 흘러 동기 화력에 의해 위상이 일치됩니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "42",
+    "question": "조명용 전등을 호텔 또는 여관 객실 입구에 설치할 경우 최대 몇 분 이내에 소등되는 타임 스위치를 시설하여야 하는가?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "숙박업소 각 호실에 설치하는 타임 스위치는 1분 이내에 소등되도록 시설해야 합니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "43",
+    "question": "가정용 전기 세탁기를 욕실에 설치하는 경우 콘센트의 규격은?",
+    "choices": [
+      "접지극부 3극 15[A]",
+      "3극 15[A]",
+      "접지극부 2극 15[A]",
+      "2극 15[A]"
+    ],
+    "answer": 3,
+    "explanation": "욕실 등 인체가 물에 젖은 상태에서 전기를 사용하는 장소에는 접지극이 있는 2극 15[A] 방수형 콘센트를 사용하여 접지해야 합니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "44",
+    "question": "캡타이어 케이블을 공사하는 경우 지지점을 공사 방법으로 틀린 것은?",
+    "choices": [
+      "캡타이어 케이블을 조영재에 따라 시설하는 경우는 그 지지점 간의 거리는 1.0[m] 이하로 한다.",
+      "서까래와 서까래의 사이에 캡타이어 케이블을 시설하는 경우 지지점 간격은 1.2[m] 이하로 해야 한다.",
+      "은폐 배선에 있어 부득이한 경우는 지지하지 않아도 된다.",
+      "캡타이어 케이블 상호 및 캡타이어 케이블과 박스, 기구와의 접속 개소와 지지점 간의 거리는 0.15[m]로 하는 것이 바람직하다."
+    ],
+    "answer": 2,
+    "explanation": "서까래와 서까래 사이 간격이 1.0m를 초과하는 곳에 캡타이어 케이블을 시설할 때는 메신저 와이어 등으로 조가하여 지지해야 하므로 1.2m 이하로 하는 것은 틀린 설명입니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "45",
+    "question": "동기 발전기에서 전기자 전류가 유도 기전력보다 90° 뒤진 전류가 흐르는 경우 나타나는 전기자 반작용은?",
+    "choices": [
+      "증자 작용",
+      "감자 작용",
+      "교차 자화 작용",
+      "직축 반작용"
+    ],
+    "answer": 2,
+    "explanation": "동기 발전기에서 유도 기전력보다 90° 뒤진 전류(뒤진 전류)가 흐르면 감자 작용이 나타납니다. 반대로 앞선 전류는 증자 작용을 일으킵니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "46",
+    "question": "고압 가공 인입선이 도로를 횡단하는 경우 노면상 시설하여야 할 높이는 몇 [m] 이상인가?",
+    "choices": [
+      "8.5",
+      "5",
+      "6",
+      "6.5"
+    ],
+    "answer": 3,
+    "explanation": "고압 가공 인입선이 도로를 횡단하는 경우 노면상 시설하여야 할 높이는 6[m] 이상입니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "47",
+    "question": "전원 주파수 60[Hz], 4극, 슬립 5[%]인 유도 전동기의 회전자의 주파수[Hz]는?",
+    "choices": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "유도 전동기 회전자의 주파수는 전원 주파수(f)에 슬립(s)을 곱하여 구한다. (f₂ = sf)",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "48",
+    "question": "변압기 결선에서 1차측은 중성점을 접지할 수 있고 2차측은 제3고조파에 의한 영향을 없애주는 장점을 가지고 있는 3상 결선 방식은?",
+    "choices": [
+      "V-V",
+      "△-△",
+      "Y-Y",
+      "Y-△"
+    ],
+    "answer": 4,
+    "explanation": "Y-△ 결선 방식은 1차측 중성점 접지가 용이하고, 2차측 △결선에서 제3고조파 전류가 순환하여 외부로 나오지 않아 통신 장애를 방지한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "49",
+    "question": "황산구리 용액에 10[A]의 전류를 60분간 흘린 경우 이때 석출되는 구리의 양[g]은? (단, 구리의 전기 화학 당량은 0.3293×10⁻³[g/C]이다.)",
+    "choices": [
+      "약 11.86",
+      "약 5.93",
+      "약 7.82",
+      "약 1.67"
+    ],
+    "answer": 1,
+    "explanation": "패러데이의 법칙에 따라 석출되는 물질의 양(W)은 전기화학 당량(k), 전류(I), 시간(t)의 곱으로 계산한다. (W = kIt)",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "50",
+    "question": "전주의 길이가 16[m]이고, 설계 하중이 6.8[kN] 이하의 철근 콘크리트주를 시설할 때 땅에 묻히는 길이는 몇 [m] 이상이어야 하는가?",
+    "choices": [
+      "1.2",
+      "1.4",
+      "2.0",
+      "2.5"
+    ],
+    "answer": 4,
+    "explanation": "길이 15[m] 초과하는 전주의 매설 깊이는 2.5[m] 이상이어야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "51",
+    "question": "다음 그림은 전선 피복을 벗기는 공구이다. 알맞은 것은? [그림]",
+    "choices": [
+      "니퍼",
+      "펜치",
+      "와이어 스트리퍼",
+      "전선 압착 공구"
+    ],
+    "answer": 3,
+    "explanation": "제시된 그림은 전선의 피복을 벗기는 데 사용하는 와이어 스트리퍼이며, 특히 자동 와이어 스트리퍼에 해당한다.",
+    "image": "img_2019_1_51_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "52",
+    "question": "전장의 단위로 맞는 것은?",
+    "choices": [
+      "[V]",
+      "[J/C]",
+      "[N・m/C]",
+      "[V/m]"
+    ],
+    "answer": 4,
+    "explanation": "전장의 단위는 전위의 기울기를 나타내며, 전위의 단위(V)를 길이의 단위(m)로 나눈 V/m이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "53",
+    "question": "다음 그림에서 ( ) 안의 극성은? [그림]",
+    "choices": [
+      "N극",
+      "S극",
+      "+극",
+      "아무런 변화가 없다."
+    ],
+    "answer": 1,
+    "explanation": "솔레노이드 코일에 전류가 흐를 때 오른손 법칙을 적용하면, 네 손가락을 전류 방향으로 감아 쥐었을 때 엄지손가락이 가리키는 방향(왼쪽)이 N극이 된다.",
+    "image_filenames": {
+      "question_image": "img_2019_1_53_q.png",
+      "choice_images": []
+    },
+    "image": "img_2019_1_53_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "54",
+    "question": "케이블을 구부리는 경우는 피복이 손상되지 않도록 하고, 그 굴곡부의 곡률 반경은 원칙적으로 케이블이 단심인 경우 외경의 몇 배 이상이어야 하는가?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": 3,
+    "explanation": "케이블의 굴곡 반경은 케이블 바깥 지름의 6배 이상이어야 하며, 단심인 경우에는 8배 이상으로 한다.",
+    "image_filenames": {
+      "question_image": null,
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "55",
+    "question": "교류 전압이 $v=\\sqrt{2}Vsin(\\omega t-\\frac{\\pi}{3})[V]$, 교류 전류가 $i=\\sqrt{2}Isin(\\omega t-\\frac{\\pi}{6})[A]$인 경우 전압과 전류의 위상 관계는?",
+    "choices": [
+      "전압이 전류보다 60° 뒤진다.",
+      "전류가 전압보다 60° 앞선다.",
+      "전압이 전류보다 30° 뒤진다.",
+      "전류가 전압보다 30° 앞선다."
+    ],
+    "answer": 4,
+    "explanation": "전압의 위상은 $-\\frac{\\pi}{3}$이고 전류의 위상은 $-\\frac{\\pi}{6}$이다. 위상차는 $(-\\frac{\\pi}{6}) - (-\\frac{\\pi}{3}) = \\frac{\\pi}{6}$ (30°)이므로, 전류가 전압보다 30° 앞선다.",
+    "image_filenames": {
+      "question_image": null,
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "56",
+    "question": "도체계에서 임의의 도체를 일정 전위(일반적으로 영전위)의 도체로 완전 포위하면 내부와 외부의 전계를 완전히 차단할 수 있는데 이를 무엇이라 하는가?",
+    "choices": [
+      "핀치 효과",
+      "톰슨 효과",
+      "정전 차폐",
+      "자기 차폐"
+    ],
+    "answer": 3,
+    "explanation": "정전 차폐는 도체 내부와 외부의 전계를 차단하기 위해 도체를 일정한 전위의 도체로 완전 포위하는 것이다.",
+    "image_filenames": {
+      "question_image": null,
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "57",
+    "question": "변압기에서 퍼센트 저항 강하 3[%], 리액턴스 강하 4[%]일 때, 역률 0.8(지상)에서의 전압 변동률은?",
+    "choices": [
+      "2.4[%]",
+      "3.6[%]",
+      "4.8[%]",
+      "6[%]"
+    ],
+    "answer": 3,
+    "explanation": "변압기의 전압 변동률 $\\epsilon = p\\cos\\theta + q\\sin\\theta$ 공식을 사용한다. $\\cos\\theta = 0.8$이므로 $\\sin\\theta = \\sqrt{1-0.8^2} = 0.6$이다. 따라서 $\\epsilon = 3 \\times 0.8 + 4 \\times 0.6 = 2.4 + 2.4 = 4.8$[%]이다.",
+    "image_filenames": {
+      "question_image": null,
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "58",
+    "question": "2극, 60[Hz]인 유도 전동기의 회전수는 몇 [rpm]인가?",
+    "choices": [
+      "4,800",
+      "3,600",
+      "2,400",
+      "1,800"
+    ],
+    "answer": 2,
+    "explanation": "유도 전동기의 동기 속도 $N_s = \\frac{120f}{P}$ 공식을 사용한다. 2극, 60Hz이므로 $N_s = \\frac{120 \\times 60}{2} = 3,600$[rpm]이다.",
+    "image_filenames": {
+      "question_image": null,
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "59",
+    "question": "정격 전류가 30[A]인 저압 전로의 과전류 차단기를 산업용 배선용 차단기로 사용하는데 경우 정격 전류의 1.3배의 전류가 통과하였을 때 몇 분 이내에 자동적으로 동작하여야 하는가?",
+    "choices": [
+      "1분",
+      "60분",
+      "2분",
+      "120분"
+    ],
+    "answer": 2,
+    "explanation": "저압 전로에 사용하는 63[A] 이하의 산업용 배선용 차단기는 정격 전류의 1.3배 전류가 흐를 때 60분 이내에 자동적으로 동작해야 한다.",
+    "image_filenames": {
+      "question_image": null,
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "60",
+    "question": "4극, 60[Hz], 200[kW]인 3상 유도 전동기가 있다. 전부하 슬립이 2.5[%]로 회전할 때 회전수는 몇 [rpm]인가?",
+    "choices": [
+      "1,700",
+      "1,800",
+      "1,755",
+      "1,875"
+    ],
+    "answer": 3,
+    "explanation": "유도 전동기의 회전수는 동기 속도와 슬립을 이용하여 계산한다. 동기 속도는 극수와 주파수에 의해 결정되며, 실제 회전수는 (1-슬립)에 동기 속도를 곱한 값이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "01",
+    "question": "무부하 전압 103[V]인 직류 발전기의 정격 전압 100[V]인 경우 이 발전기의 전압 변동률[%]은?",
+    "choices": [
+      "1",
+      "3",
+      "6",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "전압 변동률은 (무부하 전압 - 정격 전압) / 정격 전압 × 100% 공식으로 계산한다. (103 - 100) / 100 × 100 = 3[%] 이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "02",
+    "question": "교류 회로에 저항 R[Ω], 유도 리액턴스 X_L[Ω], 용량 리액턴스 X_C[Ω]이 직렬로 접속되어 있을 때 합성 임피던스의 크기는?",
+    "choices": [
+      "R² + (X_L - X_C)²",
+      "R² + (X_L + X_C)²",
+      "√(R² + (X_L + X_C)²) ",
+      "√(R² + (X_L - X_C)²)"
+    ],
+    "answer": 4,
+    "explanation": "R-L-C 직렬 회로의 합성 임피던스 Z는 R + j(X_L - X_C) [Ω]이다. 이 임피던스의 크기는 피타고라스 정리에 따라 Z = √(R² + (X_L - X_C)²)로 계산된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "03",
+    "question": "동기기의 전기자 권선법이 아닌 것은?",
+    "choices": [
+      "2층권",
+      "단절권",
+      "중권",
+      "전층권"
+    ],
+    "answer": 3,
+    "explanation": "동기기의 권선법은 고조파 제거 및 좋은 파형을 얻기 위해 분포권, 단절권, 2층권 등을 사용한다. 중권은 직류기에서 사용되는 권선법이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "04",
+    "question": "정전 흡인력은 인가한 전압의 몇 제곱에 비례하는가?",
+    "choices": [
+      "2",
+      "1/4",
+      "1/2",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "정전 흡인력 F는 F = εV² / (2d²) A[N]으로 표현되며, 인가한 전압(V)의 제곱에 비례한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "05",
+    "question": "전선의 약호 중 “H”가 의미하는 것은?",
+    "choices": [
+      "전열용 절연 전선",
+      "네온 전선",
+      "내열용 절연 전선",
+      "경동선"
+    ],
+    "answer": 4,
+    "explanation": "경동선(Hard-drawn copper wire)의 약호는 영문자 'H'를 사용하는데, 이는 'Hard'의 첫 글자를 따서 경동선을 나타낸다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "06",
+    "question": "자동 전기 설비 계통 등에서 기구 위치 선정에 사용되는 것은?",
+    "choices": [
+      "세이딩 모터",
+      "동기 전동기",
+      "스테핑 모터",
+      "반동 전동기"
+    ],
+    "answer": 3,
+    "explanation": "스테핑 모터는 펄스 신호에 의해 정확한 각도로 회전하며 위치 제어가 가능하여 자동 설비 계통의 위치 선정에 사용된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "07",
+    "question": "3상 100[kVA], 13,200/200[V] 부하의 저압측 유효분 전류는? (단, 역률은 0.80이다.)",
+    "choices": [
+      "130",
+      "230",
+      "260",
+      "288"
+    ],
+    "answer": 2,
+    "explanation": "피상 전력 P_a = √3 VI[VA]에서 총 전류 I를 구한 후, 유효분 전류는 I cosθ로 계산한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "08",
+    "question": "두 개의 코일의 자기 인덕턴스가 80[mH], 50[mH]이고 상호 인덕턴스가 60[mH]일 때 누설이 없이 가동으로 접속한 경우 합성 인덕턴스[mH]는?",
+    "choices": [
+      "13",
+      "250",
+      "240",
+      "230"
+    ],
+    "answer": 2,
+    "explanation": "누설이 없는 가동 접속의 경우, 합성 인덕턴스는 각 자기 인덕턴스와 상호 인덕턴스의 2배를 더하여 계산한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "09",
+    "question": "변압기의 권수비가 60이고 2차 저항이 0.1[Ω]일 때 1차로 환산한 저항값[Ω]은 얼마인가?",
+    "choices": [
+      "30",
+      "360",
+      "300",
+      "250"
+    ],
+    "answer": 2,
+    "explanation": "변압기에서 1차측으로 환산한 저항은 2차측 저항에 권수비의 제곱을 곱하여 구한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "10",
+    "question": "최대 사용 전압이 70[kV]인 중성점 직접 접지식 전로의 절연 내력 시험 전압은 몇 [V]인가?",
+    "choices": [
+      "35,000",
+      "50,400",
+      "44,800",
+      "42,000"
+    ],
+    "answer": 2,
+    "explanation": "최대 사용 전압이 60[kV] 이상인 중성점 직접 접지식 전로의 절연 내력 시험 전압은 최대 사용 전압의 0.72배이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "11",
+    "question": "가연성 분진에 전기 설비가 발화원이 되어 폭발의 우려가 있는 곳에 시설하는 저압 옥내 배선 공사 방법이 아닌 것은?",
+    "choices": [
+      "애자 사용 공사",
+      "케이블 공사",
+      "두께 2[mm] 이상 합성 수지관 공사",
+      "금속관 공사"
+    ],
+    "answer": 1,
+    "explanation": "가연성 분진이 있는 장소에서는 폭발 방지를 위해 금속관, 케이블, 합성 수지관 공사 등이 사용되며, 애자 사용 공사는 적합하지 않다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "12",
+    "question": "자기 회로의 자기 저항이 5,000[AT/Wb], 기자력이 50,000[AT]이라면 자속[Wb]은?",
+    "choices": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "자기 회로에서 자속은 기자력을 자기 저항으로 나눈 값이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "13",
+    "question": "전기자와 계자 권선이 병렬로만 접속되어 있는 발전기는?",
+    "choices": [
+      "직권 발전기",
+      "타여자 발전기",
+      "분권 발전기",
+      "차동 복권 발전기"
+    ],
+    "answer": 3,
+    "explanation": "분권 발전기는 계자 권선과 전기자 회로가 병렬로만 접속되어 있는 직류 발전기의 한 종류이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "14",
+    "question": "전하의 성질에 대한 설명 중 옳지 않은 것은?",
+    "choices": [
+      "대전체에 들어 있는 전하를 없애려면 접지시킨다.",
+      "같은 종류의 전하끼리는 흡인하고, 다른 종류의 전하끼리는 반발한다.",
+      "전하는 가장 안정한 상태를 유지하려는 성질이 있다.",
+      "비대전체에 대전체를 갖다 대면 비대전체에 전하가 유도되며 이를 정전 유도 현상이라 한다."
+    ],
+    "answer": 2,
+    "explanation": "같은 종류의 전하끼리는 서로 반발하고, 다른 종류의 전하끼리는 서로 흡인한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "15",
+    "question": "다이오드를 사용한 정류 회로에서 다이오드를 여러 개 직렬로 연결하여 사용하는 경우의 설명으로 가장 옳은 것은?",
+    "choices": [
+      "다이오드를 과전류로부터 보호할 수 있다.",
+      "낮은 전압 전류에 적합하다.",
+      "부하 출력의 맥동률을 감소시킬 수 있다.",
+      "다이오드를 과전압으로부터 보호할 수 있다."
+    ],
+    "answer": 4,
+    "explanation": "직렬 접속 시 전압 강하에 의해 과전압으로부터 보호할 수 있다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "16",
+    "question": "공기 중에 10[μC]과 20[μC]를 1[m] 간격으로 놓을 때 발생하는 정전력[N]은?",
+    "choices": [
+      "3.8",
+      "2.2",
+      "1.8",
+      "6.3"
+    ],
+    "answer": 3,
+    "explanation": "쿨롱의 법칙: 대전된 두 도체 사이에 작용하는 힘(정전력)이다. F = (Q1 * Q2) / (4πε0 * r^2) = 9 × 10^9 × (10 × 10^-6 × 20 × 10^-6) / 1^2 = 1.8[N].",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "17",
+    "question": "공심 솔레노이드에 자기장의 세기를 500[AT/m]를 가한 경우 자속 밀도[Wb/m²]은?",
+    "choices": [
+      "2π × 10⁻¹",
+      "π × 10⁻⁴",
+      "2π × 10⁻⁴",
+      "π × 10⁻¹"
+    ],
+    "answer": 3,
+    "explanation": "자속 밀도 B = μ₀H = 4π × 10⁻⁷ × 500 = 2π × 10⁻⁴ [Wb/m²].",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "18",
+    "question": "동기 전동기에 대한 설명으로 틀린 것은?",
+    "choices": [
+      "역률을 조정할 수 없다.",
+      "효율이 좋다.",
+      "난조가 일어나기 쉽다.",
+      "직류 여자기가 필요하다."
+    ],
+    "answer": 1,
+    "explanation": "동기 전동기는 역률을 1로 조정할 수 있다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "19",
+    "question": "1[μF]의 콘덴서에 30[kV]의 전압을 가하여 200[Ω]의 저항을 통해 방전시키면 이때 발생하는 에너지[J]는 얼마인가?",
+    "choices": [
+      "450",
+      "900",
+      "1,000",
+      "1,200"
+    ],
+    "answer": 1,
+    "explanation": "콘덴서에 축적되는 에너지 W = (1/2)CV² = (1/2) × 1 × 10⁻⁶ × (30 × 10³)² = 450[J].",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "20",
+    "question": "[그림] 전지의 기전력이 1.5[V], 5개를 부하 저항 2.5[Ω]인 전구에 접속하였을 때 전구에 흐르는 전류는 몇 [A]인가? (단, 전지의 내부 저항은 0.5[Ω]이다.)",
+    "choices": [
+      "1.5",
+      "2",
+      "3",
+      "2.5"
+    ],
+    "answer": 1,
+    "explanation": "직렬 연결된 전지의 총 기전력을 총 내부 저항과 부하 저항의 합으로 나누어 전류를 계산한다. (I = nE / (nr + R))",
+    "image": "img_2019_2_20_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "21",
+    "question": "알칼리 축전기의 대표적인 축전지로 널리 사용되고 있는 2차 전지는?",
+    "choices": [
+      "망간 전지",
+      "산화은 전지",
+      "페이퍼 전지",
+      "니켈-카드뮴 전지"
+    ],
+    "answer": 4,
+    "explanation": "니켈-카드뮴 전지는 알칼리 축전기의 대표적인 2차 전지로 휴대용 이동 전화의 전원으로 널리 사용된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "22",
+    "question": "어떤 변압기에서 임피던스 강하가 5[%]인 변압기가 운전 중 단락되었을 때 그 단락 전류는 정격 전류의 몇 배인가?",
+    "choices": [
+      "5",
+      "20",
+      "50",
+      "200"
+    ],
+    "answer": 2,
+    "explanation": "단락 전류는 정격 전류의 100을 백분율 임피던스 강하로 나눈 값이다. (Is = (100 / %Z) * In)",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "23",
+    "question": "[그림] 전기 기계에 있어 와전류손(eddy current loss)을 감소하기 위한 적합한 방법은?",
+    "choices": [
+      "냉각 압연한다.",
+      "보상 권선을 설치한다.",
+      "교류 전원을 사용한다.",
+      "규소 강판에 성층 철심을 사용한다."
+    ],
+    "answer": 4,
+    "explanation": "와전류손을 감소시키기 위해 철심을 얇은 규소 강판으로 성층하여 사용한다.",
+    "image": "img_2019_2_23_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "24",
+    "question": "분권 발전기의 정격 전압이 100[V]이고 전기자 저항 0.2[Ω], 정격 전류가 50[A]인 경우 유도 기전력은 몇 [V]인가?",
+    "choices": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "answer": 2,
+    "explanation": "분권 발전기의 유도 기전력은 단자 전압에 전기자 전류와 전기자 저항에 의한 전압 강하를 더한 값이다. (E = V + IaRa)",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "25",
+    "question": "[그림] 동기기에서 제동 권선을 설치하는 이유로 옳은 것은?",
+    "choices": [
+      "역률 개선",
+      "난조 방지",
+      "전압 조정",
+      "출력 증가"
+    ],
+    "answer": 2,
+    "explanation": "동기기에서 제동 권선은 난조를 방지하고 기동 토크를 발생시키는 목적으로 설치된다.",
+    "image": "img_2019_2_25_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "26",
+    "question": "출력이 10[kW]이고 효율 80[%]일 때 손실은 몇 [kW]인가?",
+    "choices": [
+      "7.5",
+      "10",
+      "2.5",
+      "12.5"
+    ],
+    "answer": 3,
+    "explanation": "총 입력은 출력을 효율로 나누어 계산하고, 손실은 입력에서 출력을 뺀 값이다. (입력 = 10kW / 0.8 = 12.5kW, 손실 = 12.5kW - 10kW = 2.5kW)",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "27",
+    "question": "[그림] 동기 발전기의 돌발 단락 전류를 주로 제한하는 것은?",
+    "choices": [
+      "역상 리액턴스",
+      "누설 리액턴스",
+      "동기 리액턴스",
+      "권선 저항"
+    ],
+    "answer": 2,
+    "explanation": "동기 발전기의 돌발 단락 전류는 주로 누설 리액턴스에 의해 제한된다.",
+    "image": "img_2019_2_27_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "28",
+    "question": "공기 중에서 5×10⁻⁴[Wb]인 곳에서 10[cm] 떨어진 점에 3×10⁻⁴[Wb]이 놓여 있을 경우 자기력의 세기[N]는?",
+    "choices": [
+      "9.5×10⁻¹",
+      "9.5×10⁻²",
+      "9.5×10⁻³",
+      "9.5×10⁻⁴"
+    ],
+    "answer": 1,
+    "explanation": "두 자극 간에 작용하는 힘의 세기 F = 6.33 × 10⁴ × (m₁∙m₂ / r²) = 6.33 × 10⁴ × (5×10⁻⁴ × 3×10⁻⁴ / 0.1²) = 0.95 = 9.5 × 10⁻¹[N].",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "29",
+    "question": "3상 유도 전동기의 회전 방향을 바꾸려면?",
+    "choices": [
+      "전원의 전압과 주파수를 바꾸어준다.",
+      "전동기의 1차 권선에 있는 3개의 단자 중 어느 2개의 단자를 서로 바꾸어준다.",
+      "Δ-Y 결선으로 결선법을 바꾸어준다.",
+      "기동 보상기를 사용하여 권선을 바꾸어준다."
+    ],
+    "answer": 2,
+    "explanation": "3상 유도 전동기는 회전 자계에 의해 회전하며 회전 자계의 방향을 반대로 하려면 전원의 3선 가운데 2선을 바꾸어 전원에 다시 연결하면 회전 방향은 반대로 된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "30",
+    "question": "전선 접속 시 사용되는 슬리브(sleeve)의 종류가 아닌 것은?",
+    "choices": [
+      "E형",
+      "S형",
+      "D형",
+      "P형"
+    ],
+    "answer": 3,
+    "explanation": "전선 접속 시 사용되는 슬리브(sleeve)의 종류에는 S형, E형, P형 등이 있다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "31",
+    "question": "전선의 접속에 대한 설명으로 틀린 것은?",
+    "choices": [
+      "접속 부분의 전기 저항을 20[%] 이상 증가되도록 한다.",
+      "접속 부분의 인장 강도를 80[%] 이상 유지되도록 한다.",
+      "접속 부분에 전선 접속 기구를 사용한다.",
+      "알루미늄 전선과 구리전선의 접속 시 전기적인 부식이 생기지 않도록 한다."
+    ],
+    "answer": 1,
+    "explanation": "전선 접속 시 주의 사항은 전선 접속 부분의 전기 저항을 증가시키지 말 것과 인장 강도를 80[%] 이상 유지할 것입니다. 따라서 전기 저항을 증가되도록 한다는 설명은 틀렸습니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "32",
+    "question": "피뢰 시스템에 접지 도체가 접속된 경우 접지선의 굵기는 구리전선인 경우 최소 몇 [mm²] 이상이어야 하는가?",
+    "choices": [
+      "6",
+      "10",
+      "16",
+      "22"
+    ],
+    "answer": 3,
+    "explanation": "접지 도체가 피뢰 시스템에 접속된 경우, 구리 전선은 16[mm²] 이상, 철제는 50[mm²] 이상이어야 합니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "33",
+    "question": "배전반 및 분전반과 연결된 배관을 변경하거나 이미 설치되어 있는 캐비닛에 구멍을 뚫을 때 필요한 공구는?",
+    "choices": [
+      "오스터",
+      "녹아웃 펀치",
+      "토치 램프",
+      "클리퍼"
+    ],
+    "answer": 2,
+    "explanation": "녹아웃 펀치는 배전반이나 분전반 등의 금속제 캐비닛의 구멍을 확대하거나 철판의 구멍 뚫기에 사용하는 공구입니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "34",
+    "question": "굵은 전선이나 케이블을 절단할 때 사용되는 공구는?",
+    "choices": [
+      "플라이어",
+      "펜치",
+      "나이프",
+      "클리퍼"
+    ],
+    "answer": 4,
+    "explanation": "클리퍼는 전선 단면적 25[mm²] 이상의 굵은 전선이나 볼트를 절단할 때 사용하는 공구입니다.",
+    "image_filenames": {
+      "question_image": "img_2019_2_34_q.png",
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "35",
+    "question": "전선의 접속법에서 두 개 이상의 전선을 병렬로 사용하는 경우의 시설 기준으로 틀린 것은?",
+    "choices": [
+      "각 전선의 굵기는 구리인 경우 50[mm²] 이상이어야 한다.",
+      "각 전선의 굵기는 알루미늄인 경우 70[mm²] 이상이어야 한다.",
+      "병렬로 사용하는 전선은 각각에 퓨즈를 설치할 것",
+      "동극의 각 전선은 동일한 터미널 러그에 완전히 접속할 것"
+    ],
+    "answer": 3,
+    "explanation": "병렬로 접속하여 각각의 전선에 퓨즈를 설치하면 한 선의 퓨즈가 용단될 때 다른 선으로 모든 전류가 흘러 위험해지므로 퓨즈를 설치해서는 안 됩니다.",
+    "image_filenames": {
+      "question_image": "img_2019_2_35_q.png",
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "36",
+    "question": "금속관 공사를 노출로 시공할 때 직각으로 구부러지는 곳에는 어떤 배선 기구를 사용하는가?",
+    "choices": [
+      "유니언 커플링",
+      "아우트렛 박스",
+      "픽스처 히키",
+      "유니버설 엘보"
+    ],
+    "answer": 4,
+    "explanation": "금속관 공사를 노출로 시공할 때 직각으로 구부러지는 곳에는 유니버설 엘보를 사용합니다. 노멀 밴드도 직각 배관에 사용되나, 주로 매입 공사에도 쓰입니다.",
+    "image_filenames": {
+      "question_image": "img_2019_2_36_q.png",
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "37",
+    "question": "직류 발전기의 전기자 반작용의 영향에 대한 설명으로 틀린 것은?",
+    "choices": [
+      "브러시 사이의 불꽃을 발생시킨다.",
+      "주자속이 찌그러지거나 감소된다.",
+      "전기자 전류에 의한 자속이 주자속에 영향을 준다.",
+      "회전 방향과 반대 방향으로 자기적 중성축이 이동된다."
+    ],
+    "answer": 4,
+    "explanation": "전기자 반작용으로 인해 자기적 중성축은 회전 방향으로 이동합니다. 따라서 회전 방향과 반대 방향으로 이동된다는 설명은 틀렸습니다.",
+    "image_filenames": {
+      "question_image": "img_2019_2_37_q.png",
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "38",
+    "question": "자기 인덕턴스가 2[H]인 코일에 저장된 에너지가 25[J]이 되기 위해서는 전류를 몇 [A]를 흘려줘야 하겠는가?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "코일에 축적되는 에너지 공식 W = (1/2)LI²를 사용하여 전류 I에 대해 정리하면 I = √(2W/L)이 됩니다. 주어진 값을 대입하면 I = √(2 × 25 / 2) = √25 = 5[A]입니다.",
+    "image_filenames": {
+      "question_image": "img_2019_2_38_q.png",
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "39",
+    "question": "금속관 공사에서 녹아웃의 지름이 금속관의 지름보다 큰 경우에 사용하는 재료는?",
+    "choices": [
+      "링리듀서",
+      "부싱",
+      "커넥터",
+      "로크 너트"
+    ],
+    "answer": 1,
+    "explanation": "링리듀서는 금속관을 아우트렛 박스에 접속할 때 박스 지름이 금속관 지름보다 큰 경우에 사용하는 보조 접속 기구입니다.",
+    "image_filenames": {
+      "question_image": "img_2019_2_39_q.png",
+      "choice_images": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "40",
+    "question": "보호 도체와 계통 도체를 겸용하는 겸용 도체는 중성선과 겸용, 상도체와 겸용, 중간 도체와 겸용을 말하여 단면적은 구리선을 사용하는 경우 최소 몇 [mm²] 이상이어야 하는가?",
+    "choices": [
+      "6",
+      "10",
+      "16",
+      "22"
+    ],
+    "answer": 2,
+    "explanation": "겸용 도체의 최소 굵기는 구리 10mm² 또는 알루미늄 16mm² 이상이어야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "41",
+    "question": "AC 380[V] 전동기와 AC 220[V] 전등을 배선하는 부하를 접속하는 경우 적합한 결선은?",
+    "choices": [
+      "3상 4선식",
+      "단상 3선식",
+      "3상 3선식",
+      "단상 2선식"
+    ],
+    "answer": 1,
+    "explanation": "3상 4선식의 Y결선은 두 가지 전압(선간 전압 380V, 상전압 220V)을 얻을 수 있고, 접지가 용이하여 여러 전압의 부하를 동시에 접속하기에 적합하다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "42",
+    "question": "설치 면적과 설치 비용이 많이 들지만 가장 이상적이고 효과적인 진상용 콘덴서 설치 방법은?",
+    "choices": [
+      "수전단 모선에 설치한다.",
+      "수전단 모선에 분산하여 설치한다.",
+      "가장 큰 부하측에만 설치한다.",
+      "부하측에 분산하여 설치한다."
+    ],
+    "answer": 4,
+    "explanation": "가장 효과적인 콘덴서 설치 방법은 부하측에 분산하여 설치하는 것이며, 이는 전력 손실 감소와 전압 강하 개선에 유리하다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "43",
+    "question": "역률이 좋아 가정용 선풍기, 세탁기, 냉장고 [그림] 등에 주로 사용되는 것은?",
+    "choices": [
+      "분상 기동형",
+      "영구 콘덴서형",
+      "반발 기동형",
+      "셰이딩 코일형"
+    ],
+    "answer": 2,
+    "explanation": "영구 콘덴서형 단상 유도 전동기는 콘덴서로 인해 기동 토크는 약하지만 역률이 좋아 선풍기, 세탁기, 냉장고 등 가정용 기기에 널리 사용된다.",
+    "image": "img_2019_2_43_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "44",
+    "question": "전기 저항이 작고, 부드러운 성질이 있어 구부리기가 용이하므로 주로 옥내 배선에 사용하는 구리선의 명칭은?",
+    "choices": [
+      "경동선",
+      "연동선",
+      "합성 연선",
+      "중공 전선"
+    ],
+    "answer": 2,
+    "explanation": "연동선은 전기 저항이 작고 부드러워 가요성이 뛰어나므로 옥내 배선에 주로 사용되며, 경동선은 인장 강도가 뛰어나 옥외 전선로에 사용된다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "45",
+    "question": "낙뢰, 수목 접촉, 일시적인 섬락 등 순간적인 사고로 계통에서 분리된 구간을 신속히 계통에 재투입시킴으로써 계통의 안정도를 향상시키고 정전 시간을 단축시키기 위해 사용되는 계전기는?",
+    "choices": [
+      "과전류 계전기",
+      "거리 계전기",
+      "재폐로 계전기",
+      "차동 계전기"
+    ],
+    "answer": 3,
+    "explanation": "재폐로 계전기는 일시적인 고장이 발생했을 때 고장 구간을 신속히 차단하고 재투입하여 계통의 안정도를 높이고 정전 시간을 단축시킨다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "46",
+    "question": "주택용 배선용 차단기는 정격 전류 63[A] 이하인 경우 정격 전류의 몇 [%]에 확실하게 동작되어야 하는가?",
+    "choices": [
+      "115",
+      "125",
+      "145",
+      "150"
+    ],
+    "answer": 3,
+    "explanation": "배선용 차단기의 과전류 트립 특성 표에 따르면, 정격 전류 63[A] 이하의 주택용 차단기는 정격 전류의 1.45배에서 60분 이내에 동작해야 한다.",
+    "image_filename": {
+      "question": "img_2019_2_46_q.png",
+      "choices": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "47",
+    "question": "전류의 순시값이 i(t) = 200√2 sin(ωt + π/2) [A]인 경우 복소수 표기기가 맞는 것은?",
+    "choices": [
+      "200√2 + j200√2",
+      "j200",
+      "100√2 + j100√2",
+      "200"
+    ],
+    "answer": 2,
+    "explanation": "전류의 순시값 i(t) = Im sin(ωt + θ)를 복소수 표기할 때는 실효값 I = Im/√2와 위상 θ를 사용한다. 주어진 i(t)에서 Im = 200√2, θ = π/2이므로, 복소수 표기는 j200[A]이다.",
+    "image_filename": {
+      "question": "img_2019_2_47_q.png",
+      "choices": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "48",
+    "question": "두 개의 평행 도선이 [그림]과 같이 시설된 경우 무슨 힘이 발생하는가?",
+    "choices": [
+      "흡인력",
+      "반발력",
+      "서로 밀어냈다가 끌어당긴다.",
+      "힘이 작용하지 않는다."
+    ],
+    "answer": 1,
+    "explanation": "두 평행 도선에 흐르는 전류의 방향이 같을 경우 흡인력이 작용하며, 전류의 방향이 다를 경우 반발력이 작용한다. [그림]에서 두 도선에 흐르는 전류는 지면을 뚫고 들어가는 방향으로 같으므로 흡인력이 발생한다.",
+    "image_filename": {
+      "question": "img_2019_2_48_q.png",
+      "choices": []
+    },
+    "image": "img_2019_2_48_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "49",
+    "question": "단상 부하에 220[V]를 인가하니 위상 45°가 뒤진 15[A]의 전류가 흘렀다면 유효 전력은 약 몇 [W]인가?",
+    "choices": [
+      "133",
+      "2,330",
+      "3,330",
+      "1,330"
+    ],
+    "answer": 2,
+    "explanation": "단상 유효 전력 P는 전압 V, 전류 I, 위상각 θ를 이용하여 P = VIcosθ로 계산한다. 문제의 값을 대입하면 P = 220 × 15 × cos45° ≈ 2,333[W]이다.",
+    "image_filename": {
+      "question": "img_2019_2_49_q.png",
+      "choices": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "50",
+    "question": "자기 인덕턴스에 대한 설명으로 틀린 것은?",
+    "choices": [
+      "코일의 권수에 비례한다.",
+      "자기장을 크게 하면 자기 인덕턴스는 증가한다.",
+      "유전율에 비례한다.",
+      "전류를 크게 하면 인덕턴스는 감소한다."
+    ],
+    "answer": 3,
+    "explanation": "자기 인덕턴스 L = NΦ/I = μAN²/l [H]은 투자율(μ), 권수(N), 단면적(A)에 비례하고 길이에 반비례한다. 유전율(ε)이나 전류의 크기 자체에는 직접적으로 비례 또는 반비례하지 않는다.",
+    "image_filename": {
+      "question": "img_2019_2_50_q.png",
+      "choices": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "51",
+    "question": "전극에서 석출되는 물질의 양이 W[g]이 있다. t [sec] 동안 I[A]를 흘려줬다면 물질의 양은 얼마인가? (단, k는 비례 상수이다.)",
+    "choices": [
+      "W = kI/t",
+      "W = kIt",
+      "W = kt/I",
+      "W = 1/kIt"
+    ],
+    "answer": 2,
+    "explanation": "패러데이의 전기분해 법칙에 따르면 전극에서 석출되는 물질의 양 W는 통과한 전기량 Q에 비례한다. 전기량 Q = It 이므로, 물질의 양 W = kQ = kIt[g]이다.",
+    "image_filename": {
+      "question": "img_2019_2_51_q.png",
+      "choices": []
+    },
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "52",
+    "question": "동일한 저항 4개를 접속하여 얻을 수 있는 최대 저항값은 최소 저항값의 몇 배인가?",
+    "choices": [
+      "4",
+      "16",
+      "8",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "동일한 저항 4개를 직렬 연결하면 최대 저항값이 되고, 병렬 연결하면 최소 저항값이 된다. 최대 저항값은 4R, 최소 저항값은 R/4이므로, 이 둘의 비율을 계산하면 16배이다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "53",
+    "question": "[그림]과 같은 직류 분권 발전기 등가 회로에서 부하 전류 I[A]는?",
+    "choices": [
+      "4",
+      "94",
+      "106",
+      "96"
+    ],
+    "answer": 2,
+    "explanation": "직류 분권 발전기에서 부하 전류 I는 전기자 전류 Ia에서 계자 전류 If를 뺀 값으로 계산된다. 따라서 I = Ia - If = 100 - 6 = 94[A]이다.",
+    "image": "img_2019_2_53_q.png",
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "54",
+    "question": "다음 ( ) 안에 알맞은 내용은?\n고압 및 특고압용 기계 기구의 시설에 있어 고압용 변압기는 시가지 외에 시설할 경우 지표상 ( ) [m] 높이에 시설하여야 한다.",
+    "choices": [
+      "5",
+      "4.5",
+      "4",
+      "3.5"
+    ],
+    "answer": 3,
+    "explanation": "고압용 기계 기구를 시설할 때 시가지 내에서는 지표상 4.5m 이상, 시가지 외에서는 지표상 4m 이상의 높이에 시설해야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "55",
+    "question": "교류에서 파형률이란?",
+    "choices": [
+      "최댓값 / 실효값",
+      "평균값 / 실효값",
+      "실효값 / 최댓값",
+      "실효값 / 평균값"
+    ],
+    "answer": 4,
+    "explanation": "교류의 파형률은 실효값을 평균값으로 나눈 비율로 정의된다. (파고율은 최댓값을 실효값으로 나눈 값이다.)",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "56",
+    "question": "한국전기설비규정에 고압 옥측 전선로를 시설할 경우 수관, 가스관 또는 이와 유사한 것과 접근하거나 교차하는 경우에는 고압 옥측 전선로의 전선과 이들 사이의 이격 거리[cm]는?",
+    "choices": [
+      "15",
+      "30",
+      "60",
+      "45"
+    ],
+    "answer": 1,
+    "explanation": "한국전기설비규정(KEC)에 따르면, 고압 옥측 전선로가 수관, 가스관 등과 접근하거나 교차하는 경우 전선과의 이격 거리는 15cm 이상이어야 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "57",
+    "question": "다음 그림 기호의 배선 명칭은?",
+    "choices": [
+      "노출 배선",
+      "천장 은폐 배선",
+      "바닥 은폐 배선",
+      "바닥면 노출 배선"
+    ],
+    "answer": 2,
+    "explanation": "일반적인 전기 배선은 대부분 천장 은폐 배선이며, 이는 실선(―) 기호로 나타낸다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "58",
+    "question": "하나의 수용 장소의 인입선 접속점에서 분기하여 지지물을 거치지 아니하고 다른 수용 장소의 인입선 접속점에 이르는 전선은?",
+    "choices": [
+      "연접 인입선",
+      "구내 인입선",
+      "가공 인입선",
+      "옥측 배선"
+    ],
+    "answer": 1,
+    "explanation": "하나의 수용 장소의 인입선 접속점에서 분기하여 지지물을 거치지 않고 다른 수용 장소의 인입선 접속점에 이르는 전선을 연접 인입선이라고 한다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "59",
+    "question": "저항 R=3[Ω], 자체 인덕턴스 L=10.6[mH]이 직렬로 연결된 회로에 주파수 60[Hz], 500[V]의 교류 전압을 인가한 경우의 전류 I[A]는?",
+    "choices": [
+      "10",
+      "15",
+      "50",
+      "100"
+    ],
+    "answer": 4,
+    "explanation": "유도성 리액턴스(XL)를 계산한 후, 이를 저항(R)과 함께 사용하여 직렬 RL 회로의 임피던스(Z)를 구합니다. 최종적으로 옴의 법칙(I=V/Z)을 적용하여 전류를 계산합니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  },
+  {
+    "number": "60",
+    "question": "교류 380[V]를 사용하는 공장의 전선과 대지 사이의 절연 저항은 몇 [MΩ] 이상이어야 하는가?",
+    "choices": [
+      "0.1",
+      "1.0",
+      "0.5",
+      "100"
+    ],
+    "answer": 2,
+    "explanation": "전기설비 기술기준에 따라 교류 500V 미만의 전압을 사용하는 회로의 전선과 대지 사이의 절연 저항은 1.0MΩ 이상이어야 합니다.",
+    "image": null,
+    "choice_images": [],
+    "choice_boxes": [],
+    "exam_title": "2019년 제1회 CBT 기출복원문제"
+  }
+]
