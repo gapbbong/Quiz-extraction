@@ -15,7 +15,7 @@ ENV/
 output/s1/
 output/s2/
 preview/
-scan/
+# scan/
 session_images/
 sess_header_*.png
 *.log
