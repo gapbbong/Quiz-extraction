@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dukigo+ Master JSON Verifier</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --panel: rgba(30, 41, 59, 0.7);
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.3);
+            --text: #f8fafc;
+            --text-dim: #94a3b8;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Outfit', 'Noto Sans KR', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 1rem 2rem;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .status-badge {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ef4444; /* Default Red */
+            color: white;
+            margin-left: 10px;
+        }
+        .status-badge.online { background: #10b981; }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(90deg, #60a5fa, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        select, button {
+            background: var(--panel);
+            border: 1px solid var(--glass-border);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.2s;
+        }
+
+        button:hover {
+            background: var(--accent);
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+
+        main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            overflow: hidden;
+        }
+
+        .viewer-card {
+            background: var(--panel);
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            position: relative;
+        }
+
+        .card-header {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255,255,255,0.02);
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .scroll-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent) transparent;
+        }
+
+        /* Image View */
+        #pdf-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* JSON View */
+        .q-entry {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .q-entry:hover {
+            border-color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            padding-bottom: 0.5rem;
+        }
+
+        .q-num {
+            font-weight: 800;
+            color: var(--accent);
+        }
+
+        .q-meta {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+        }
+
+        .q-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .opt {
+            font-size: 0.85rem;
+            padding: 0.5rem;
+            background: rgba(255,255,255,0.02);
+            border-radius: 6px;
+            border: 1px solid transparent;
+        }
+
+        .opt.correct {
+            border-color: #10b981;
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .exp {
+            font-size: 0.8rem;
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.05);
+            padding: 0.8rem;
+            border-radius: 8px;
+            border-left: 3px solid #fbbf24;
+        }
+
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-dim);
+            text-align: center;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255,255,255,0.1);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <div class="title">Dukigo+ Master JSON Verifier</div>
+            <div id="server-status" class="status-badge">OFFLINE</div>
+        </div>
+        <div class="controls">
+            <input type="file" id="json-upload" accept=".json" style="display: none;">
+            <button onclick="document.getElementById('json-upload').click()" style="background: #3b82f6; border-color: #60a5fa; color: white; transform: scale(1.05); font-weight: bold;">📁 Step 1: Load JSON (MASTER_DB)</button>
+            <span style="font-size: 0.8rem; color: var(--text-dim);">| Exam:</span>
+            <select id="exam-select">
+                <option value="2015">2015 전기기능사</option>
+                <option value="2016">2016 전기기능사</option>
+                <option value="2019">2019 전기기능사</option>
+            </select>
+            <span style="font-size: 0.8rem; color: var(--text-dim);">Round:</span>
+            <select id="round-select">
+                <option value="01">Round 1</option>
+                <option value="02">Round 2</option>
+                <option value="04">Round 4</option>
+                <option value="05">Round 5</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <!-- LEFT: PDF IMAGE -->
+        <div class="viewer-card">
+            <div class="card-header">
+                <div class="card-title">Original PDF Image</div>
+                <div class="controls">
+                    <button id="prev-pg" onclick="changePage(-1)">&lt;</button>
+                    <span id="page-num">Page 1 / 38</span>
+                    <button id="next-pg" onclick="changePage(1)">&gt;</button>
+                </div>
+            </div>
+            <div class="scroll-area">
+                <img id="pdf-img" src="" alt="PDF Page" onerror="this.src='https://via.placeholder.com/800?text=Please+Reload+Page+or+Check+Server'">
+                <div id="img-path-info" style="font-size: 10px; color: #475569; margin-top: 10px; font-family: monospace;"></div>
+            </div>
+        </div>
+
+        <!-- RIGHT: JSON CONTENT -->
+        <div class="viewer-card">
+            <div class="card-header">
+                <div class="card-title">Extracted JSON Data (MASTER_DB)</div>
+                <span id="q-count" style="font-size: 0.8rem; color: var(--accent);">0 Questions</span>
+            </div>
+            <div class="scroll-area" id="json-list">
+                <div class="empty-state" style="padding: 2rem;">
+                    <div class="loading-spinner" style="margin-bottom: 2rem;"></div>
+                    <p style="color: #60a5fa; font-weight: bold; font-size: 1.2rem;">데이터를 불러오는 중입니다...</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem; color: var(--text-dim);">1. 상단 파란색 <b>[Step 1: Load JSON]</b> 버튼을 누르세요.</p>
+                    <p style="font-size: 0.9rem; margin-top: 5px; color: var(--text-dim);">2. <code>e:/Quiz-extraction/output/ElectricExam_MASTER_DB.json</code> 파일을 선택하세요.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        // MathJax Config
+        window.MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            svg: { fontCache: 'global' }
+        };
+
+        let masterData = [];
+        let filteredData = [];
+        let currentPage = 1;
+
+        // Check server health
+        async function checkServer() {
+            try {
+                const res = await fetch('http://localhost:5001/');
+                const statusEl = document.getElementById('server-status');
+                if (res.ok) {
+                    statusEl.innerText = "ONLINE";
+                    statusEl.classList.add('online');
+                } else {
+                    statusEl.innerText = "OFFLINE";
+                    statusEl.classList.remove('online');
+                }
+            } catch(e) { /* ignore */ }
+        }
+        setInterval(checkServer, 3000);
+        checkServer();
+
+        // Accurate 2015 Mapping
+        const pageRanges = {
+            "01": [1, 10],
+            "02": [11, 19],
+            "04": [20, 28],
+            "05": [29, 38]
+        };
+
+        // File Selection Logic (Fixes CORS)
+        document.getElementById('json-upload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    masterData = JSON.parse(e.target.result);
+                    console.log("JSON Loaded via File:", masterData.length);
+                    updateList();
+                } catch (err) {
+                    alert("JSON 파싱 에러: " + err.message);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        async function loadDB() {
+            try {
+                const response = await fetch('output/ElectricExam_MASTER_DB.json');
+                if (response.ok) {
+                    masterData = await response.json();
+                    updateList();
+                }
+            } catch (e) {
+                console.log("Auto-fetch failed. Manual load required.");
+            }
+        }
+
+        function updateList() {
+            const yearStr = document.getElementById('exam-select').value;
+            const roundStr = document.getElementById('round-select').value;
+            
+            if (masterData.length === 0) return;
+
+            filteredData = masterData.filter(q => 
+                String(q.year) === yearStr && 
+                String(q.round).padStart(2, '0') === roundStr
+            );
+
+            filteredData.sort((a,b) => parseInt(a.number) - parseInt(b.number));
+
+            const listEl = document.getElementById('json-list');
+            listEl.innerHTML = '';
+            
+            if (filteredData.length === 0) {
+                listEl.innerHTML = `<div class='empty-state'>No data found for ${yearStr} Round ${roundStr}</div>`;
+                document.getElementById('q-count').innerText = "0 Questions";
+                return;
+            }
+
+            document.getElementById('q-count').innerText = `${filteredData.length} Questions Found`;
+
+            filteredData.forEach(q => {
+                const entry = document.createElement('div');
+                entry.className = 'q-entry';
+                entry.id = `q-card-${String(q.number).padStart(2, '0')}`;
+                entry.onclick = () => jumpToQuestionPage(q.number);
+                
+                const choicesHtml = (q.choices && q.choices.length > 0) 
+                    ? q.choices.map((c, i) => `
+                        <div class="opt ${String(q.answer) === String(i+1) ? 'correct' : ''}">
+                            ${i+1}. ${c}
+                        </div>
+                    `).join('')
+                    : `<div style="grid-column: span 2; color: #ef4444; font-size: 0.8rem;">[!] No choices found in JSON</div>`;
+
+                entry.innerHTML = `
+                    <div class="q-header">
+                        <span class="q-num">문항 ${q.number}</span>
+                        <span class="q-meta">${q.sub_unit || ''} | 정답: ${q.answer}</span>
+                    </div>
+                    <div class="q-text">${q.question}</div>
+                    <div class="options">
+                        ${choicesHtml}
+                    </div>
+                    ${q.explanation ? `<div class="exp">💡 해설: ${q.explanation}</div>` : ''}
+                `;
+                listEl.appendChild(entry);
+            });
+
+            // Re-render MathJax
+            if (window.MathJax && window.MathJax.typeset) {
+                window.MathJax.typeset();
+            }
+
+            if (pageRanges[roundStr]) {
+                const startPg = pageRanges[roundStr][0];
+                setPage(startPg, false);
+            }
+        }
+
+        function setPage(pg, shouldScroll = true) {
+            currentPage = pg;
+            const yearStr = document.getElementById('exam-select').value;
+            const roundStr = document.getElementById('round-select').value;
+            let imgUrl = "";
+            
+            if (yearStr === "2015") {
+                const absPath = `e:/3D studies/Dukigo+/public/images/temp/ElectricExam2015.pdf/part_${pg}.png`;
+                imgUrl = `http://localhost:5001/serve-image?path=${encodeURIComponent(absPath)}`;
+                document.getElementById('img-path-info').innerText = "Source: " + absPath;
+            } else {
+                imgUrl = `https://via.placeholder.com/800?text=Support+for+${yearStr}+Coming+Soon`;
+            }
+            
+            document.getElementById('pdf-img').src = imgUrl;
+            document.getElementById('page-num').innerText = `Page ${pg} / 38`;
+
+            if (shouldScroll) {
+                syncJsonScrollToPage(pg);
+            }
+        }
+
+        function syncJsonScrollToPage(pg) {
+            const roundStr = document.getElementById('round-select').value;
+            const range = pageRanges[roundStr];
+            if (!range || filteredData.length === 0) return;
+
+            const [startPg, endPg] = range;
+            const totalPages = endPg - startPg + 1;
+            const relativePg = pg - startPg;
+            
+            const questionsPerPage = Math.ceil(filteredData.length / totalPages);
+            const targetQNum = (relativePg * questionsPerPage) + 1;
+            
+            scrollToQuestion(targetQNum);
+        }
+
+        function scrollToQuestion(qNum) {
+            let el = document.getElementById(`q-card-${String(qNum).padStart(2, '0')}`);
+            
+            if (!el && filteredData.length > 0) {
+                const keys = filteredData.map(q => parseInt(q.number));
+                const closest = keys.reduce((prev, curr) => Math.abs(curr - qNum) < Math.abs(prev - qNum) ? curr : prev, keys[0]);
+                el = document.getElementById(`q-card-${String(closest).padStart(2, '0')}`);
+            }
+
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                el.style.borderColor = 'var(--accent)';
+                el.style.boxShadow = '0 0 20px var(--accent-glow)';
+                setTimeout(() => {
+                    el.style.borderColor = '';
+                    el.style.boxShadow = '';
+                }, 1000);
+            }
+        }
+
+        function jumpToQuestionPage(qNum) {
+            const roundStr = document.getElementById('round-select').value;
+            const range = pageRanges[roundStr];
+            if (!range || filteredData.length === 0) return;
+
+            const [startPg, endPg] = range;
+            const totalPages = endPg - startPg + 1;
+            const questionsPerPage = Math.ceil(filteredData.length / totalPages);
+            
+            const relativePg = Math.floor((parseInt(qNum)-1) / questionsPerPage);
+            let targetPg = startPg + relativePg;
+            if (targetPg > endPg) targetPg = endPg;
+            
+            setPage(targetPg, false);
+        }
+
+        function changePage(delta) {
+            let next = currentPage + delta;
+            if (next < 1) next = 1;
+            if (next > 38) next = 38;
+            setPage(next);
+        }
+
+        document.getElementById('exam-select').addEventListener('change', updateList);
+        document.getElementById('round-select').addEventListener('change', updateList);
+
+        loadDB();
+        setPage(1, false);
+    </script>
+</body>
+</html>
