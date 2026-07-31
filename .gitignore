@@ -11,8 +11,7 @@ ENV/
 
 # HEAVY DATA (IMPORTANT: This excludes all raw data from Git)
 data/
-!data/자동화설비기능사/
-!data/자동화설비(생산자동화)기능사/
+!data/자동화설비산업기사/
 backups_morning/
 scratch/previews_programming/
 scratch/sample_crops_programming/
