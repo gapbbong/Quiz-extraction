@@ -14,7 +14,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": null
   },
   {
     "number": 2,
@@ -31,7 +32,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": null
   },
   {
     "number": 3,
@@ -43,12 +45,13 @@
       "R : 가공에 의한 컷의 줄무늬 방향이 투상면에 교차 또는 경사"
     ],
     "answer": 3,
-    "has_image": false,
+    "has_image": true,
     "explanation": "줄무늬 방향 기호 중 C는 가공에 의한 컷의 줄무늬가 중심에 대하여 대략 동심원 모양임을 의미합니다.",
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q3.webp"
   },
   {
     "number": 4,
@@ -65,7 +68,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 2
+    "page": 2,
+    "question_img": null
   },
   {
     "number": 5,
@@ -77,12 +81,13 @@
       "가공된 면 위에 칩이 쌓이므로, 절삭열이 남아 있는 칩에 의해 가공된 면이 열변형을 받을 우려가 있다."
     ],
     "answer": 4,
-    "has_image": false,
+    "has_image": true,
     "explanation": "가공된 면 위에 칩이 쌓여 가공면이 열변형을 받을 우려가 있는 것은 하향절삭의 특징입니다.",
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 2
+    "page": 2,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q5.webp"
   },
   {
     "number": 6,
@@ -99,7 +104,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": null
   },
   {
     "number": 7,
@@ -116,7 +122,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": null
   },
   {
     "number": 8,
@@ -133,7 +140,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": null
   },
   {
     "number": 9,
@@ -150,7 +158,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": null
   },
   {
     "number": 10,
@@ -167,7 +176,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 11,
@@ -184,7 +194,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 12,
@@ -201,7 +212,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 13,
@@ -218,7 +230,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 14,
@@ -235,7 +248,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q14.webp"
   },
   {
     "number": 15,
@@ -252,7 +266,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": null
   },
   {
     "number": 16,
@@ -269,7 +284,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": null
   },
   {
     "number": 17,
@@ -286,7 +302,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": null
   },
   {
     "number": 18,
@@ -303,7 +320,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 6
+    "page": 6,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q18.webp"
   },
   {
     "number": 19,
@@ -320,7 +338,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 6
+    "page": 6,
+    "question_img": null
   },
   {
     "number": 20,
@@ -337,7 +356,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 6
+    "page": 6,
+    "question_img": null
   },
   {
     "number": 21,
@@ -354,7 +374,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 6
+    "page": 6,
+    "question_img": null
   },
   {
     "number": 22,
@@ -371,7 +392,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 7
+    "page": 7,
+    "question_img": null
   },
   {
     "number": 23,
@@ -388,7 +410,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 7
+    "page": 7,
+    "question_img": null
   },
   {
     "number": 24,
@@ -405,7 +428,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 7
+    "page": 7,
+    "question_img": null
   },
   {
     "number": 25,
@@ -422,7 +446,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 7
+    "page": 7,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q25.webp"
   },
   {
     "number": 26,
@@ -439,7 +464,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": null
   },
   {
     "number": 27,
@@ -456,7 +482,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q27.webp"
   },
   {
     "number": 28,
@@ -473,7 +500,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q28.webp"
   },
   {
     "number": 29,
@@ -490,7 +518,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": null
   },
   {
     "number": 30,
@@ -507,7 +536,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": null
   },
   {
     "number": 31,
@@ -524,7 +554,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 9
+    "page": 9,
+    "question_img": null
   },
   {
     "number": 32,
@@ -541,7 +572,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 9
+    "page": 9,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q32.webp"
   },
   {
     "number": 33,
@@ -558,7 +590,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 9
+    "page": 9,
+    "question_img": null
   },
   {
     "number": 34,
@@ -575,7 +608,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 9
+    "page": 9,
+    "question_img": null
   },
   {
     "number": 35,
@@ -592,7 +626,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": null
   },
   {
     "number": 36,
@@ -609,7 +644,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": null
   },
   {
     "number": 37,
@@ -626,7 +662,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": null
   },
   {
     "number": 38,
@@ -643,7 +680,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": null
   },
   {
     "number": 39,
@@ -660,7 +698,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": null
   },
   {
     "number": 40,
@@ -677,7 +716,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": null
   },
   {
     "number": 41,
@@ -694,7 +734,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q41.webp"
   },
   {
     "number": 42,
@@ -711,7 +752,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": null
   },
   {
     "number": 43,
@@ -728,7 +770,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 12
+    "page": 12,
+    "question_img": null
   },
   {
     "number": 44,
@@ -740,12 +783,13 @@
       "적외선형 영역 감지기"
     ],
     "answer": 1,
-    "has_image": false,
+    "has_image": true,
     "explanation": "접촉식 센서에는 마이크로 스위치, 리밋 스위치, 테이프 스위치, 매트 스위치, 터치 스위치 등이 있다.",
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 12
+    "page": 12,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q44.webp"
   },
   {
     "number": 45,
@@ -762,7 +806,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 12
+    "page": 12,
+    "question_img": null
   },
   {
     "number": 46,
@@ -779,7 +824,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 12
+    "page": 12,
+    "question_img": null
   },
   {
     "number": 47,
@@ -796,7 +842,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 12
+    "page": 12,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q47.webp"
   },
   {
     "number": 48,
@@ -813,7 +860,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": null
   },
   {
     "number": 49,
@@ -830,7 +878,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q49.webp"
   },
   {
     "number": 50,
@@ -847,7 +896,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": null
   },
   {
     "number": 51,
@@ -864,7 +914,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": null
   },
   {
     "number": 52,
@@ -881,7 +932,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": null
   },
   {
     "number": 53,
@@ -898,7 +950,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q53.webp"
   },
   {
     "number": 54,
@@ -915,7 +968,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": null
   },
   {
     "number": 55,
@@ -932,7 +986,8 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": null
   },
   {
     "number": 56,
@@ -949,6 +1004,7 @@
     "year": "2018",
     "round": "4",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2018-4.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2018_4_q56.webp"
   }
 ]

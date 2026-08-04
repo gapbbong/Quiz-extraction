@@ -14,7 +14,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": null
   },
   {
     "number": 57,
@@ -31,7 +32,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": null
   },
   {
     "number": 58,
@@ -48,7 +50,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": null
   },
   {
     "number": 59,
@@ -65,7 +68,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": null
   },
   {
     "number": 60,
@@ -82,7 +86,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 1
+    "page": 1,
+    "question_img": null
   },
   {
     "number": 1,
@@ -99,7 +104,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 2
+    "page": 2,
+    "question_img": null
   },
   {
     "number": 2,
@@ -116,7 +122,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 2
+    "page": 2,
+    "question_img": null
   },
   {
     "number": 3,
@@ -133,7 +140,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 2
+    "page": 2,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q3.webp"
   },
   {
     "number": 4,
@@ -145,12 +153,13 @@
       "공기척"
     ],
     "answer": 3,
-    "has_image": false,
+    "has_image": true,
     "explanation": "콜릿척은 3개의 클로를 움직여서 직경이 작은 공작물을 고정하는 데 사용하는 척입니다.",
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q4.webp"
   },
   {
     "number": 5,
@@ -167,7 +176,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": null
   },
   {
     "number": 6,
@@ -184,7 +194,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": null
   },
   {
     "number": 7,
@@ -201,7 +212,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 3
+    "page": 3,
+    "question_img": null
   },
   {
     "number": 8,
@@ -218,7 +230,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 9,
@@ -235,7 +248,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 10,
@@ -252,7 +266,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 11,
@@ -269,7 +284,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 12,
@@ -286,7 +302,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 4
+    "page": 4,
+    "question_img": null
   },
   {
     "number": 13,
@@ -303,7 +320,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": null
   },
   {
     "number": 14,
@@ -320,7 +338,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": null
   },
   {
     "number": 15,
@@ -337,7 +356,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": null
   },
   {
     "number": 16,
@@ -354,7 +374,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 5
+    "page": 5,
+    "question_img": null
   },
   {
     "number": 17,
@@ -371,7 +392,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 6
+    "page": 6,
+    "question_img": null
   },
   {
     "number": 18,
@@ -388,7 +410,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 6
+    "page": 6,
+    "question_img": null
   },
   {
     "number": 19,
@@ -405,7 +428,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 6
+    "page": 6,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q19.webp"
   },
   {
     "number": 20,
@@ -422,7 +446,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 7
+    "page": 7,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q20.webp"
   },
   {
     "number": 21,
@@ -439,7 +464,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 7
+    "page": 7,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q21.webp"
   },
   {
     "number": 22,
@@ -456,7 +482,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 7
+    "page": 7,
+    "question_img": null
   },
   {
     "number": 23,
@@ -473,7 +500,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q23.webp"
   },
   {
     "number": 24,
@@ -490,7 +518,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": null
   },
   {
     "number": 25,
@@ -507,7 +536,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": null
   },
   {
     "number": 26,
@@ -524,7 +554,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 8
+    "page": 8,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q26.webp"
   },
   {
     "number": 27,
@@ -541,7 +572,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 9
+    "page": 9,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q27.webp"
   },
   {
     "number": 28,
@@ -558,7 +590,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 9
+    "page": 9,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q28.webp"
   },
   {
     "number": 29,
@@ -575,7 +608,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 9
+    "page": 9,
+    "question_img": null
   },
   {
     "number": 30,
@@ -592,7 +626,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": null
   },
   {
     "number": 31,
@@ -609,7 +644,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": null
   },
   {
     "number": 32,
@@ -626,7 +662,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": null
   },
   {
     "number": 33,
@@ -643,7 +680,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 10
+    "page": 10,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q33.webp"
   },
   {
     "number": 34,
@@ -655,12 +693,13 @@
       "전체 수두"
     ],
     "answer": 4,
-    "has_image": false,
+    "has_image": true,
     "explanation": "베르누이 방정식에서 각 항은 압력, 속도, 위치 수두를 의미하며 이들의 총합인 $H$는 전체 수두를 나타냅니다.",
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q34.webp"
   },
   {
     "number": 35,
@@ -677,7 +716,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": null
   },
   {
     "number": 36,
@@ -694,7 +734,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q36.webp"
   },
   {
     "number": 37,
@@ -711,7 +752,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 11
+    "page": 11,
+    "question_img": null
   },
   {
     "number": 38,
@@ -723,12 +765,13 @@
       "중립형"
     ],
     "answer": 2,
-    "has_image": false,
+    "has_image": true,
     "explanation": "포핏형 밸브는 실(Seal) 효과가 우수하고 개폐 동작이 빠르며, 이물질 혼입 시에도 고장이 적은 특징을 가집니다.",
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 12
+    "page": 12,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q38.webp"
   },
   {
     "number": 39,
@@ -745,7 +788,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 12
+    "page": 12,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q39.webp"
   },
   {
     "number": 40,
@@ -762,7 +806,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": null
   },
   {
     "number": 41,
@@ -779,7 +824,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": null
   },
   {
     "number": 42,
@@ -796,7 +842,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": null
   },
   {
     "number": 43,
@@ -813,7 +860,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 13
+    "page": 13,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q43.webp"
   },
   {
     "number": 44,
@@ -830,7 +878,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": null
   },
   {
     "number": 45,
@@ -847,7 +896,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": null
   },
   {
     "number": 46,
@@ -864,7 +914,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q46.webp"
   },
   {
     "number": 47,
@@ -881,7 +932,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 14
+    "page": 14,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q47.webp"
   },
   {
     "number": 48,
@@ -898,7 +950,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 15
+    "page": 15,
+    "question_img": null
   },
   {
     "number": 49,
@@ -915,7 +968,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 15
+    "page": 15,
+    "question_img": null
   },
   {
     "number": 50,
@@ -932,7 +986,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 15
+    "page": 15,
+    "question_img": null
   },
   {
     "number": 51,
@@ -949,7 +1004,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 15
+    "page": 15,
+    "question_img": null
   },
   {
     "number": 52,
@@ -966,7 +1022,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 15
+    "page": 15,
+    "question_img": null
   },
   {
     "number": 53,
@@ -983,7 +1040,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 16
+    "page": 16,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q53.webp"
   },
   {
     "number": 54,
@@ -1000,7 +1058,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 16
+    "page": 16,
+    "question_img": "images/ae_자동화설비_기출복원문제_17년_24년_2020_1_q54.webp"
   },
   {
     "number": 55,
@@ -1017,7 +1076,8 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 16
+    "page": 16,
+    "question_img": null
   },
   {
     "number": 56,
@@ -1034,6 +1094,7 @@
     "year": "2020",
     "round": "1",
     "pdf_file": "자동화설비 기출복원문제_17년_24년_2020-1.pdf",
-    "page": 16
+    "page": 16,
+    "question_img": null
   }
 ]
